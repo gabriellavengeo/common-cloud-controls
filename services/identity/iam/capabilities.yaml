@@ -2,6 +2,7 @@ shared-capabilities:
   - reference-id: CCC
     identifiers:
       - CCC.F03 # Access/Activity Logs
+      - CCC.F06 # Identity Based Access Control
       - CCC.F07 # Event Notifications
       - CCC.F13 # Infrastructure as Code
       - CCC.F14 # API Access
@@ -24,12 +25,12 @@ capabilities:
     title: IAM Groups
     description: |
       Ability to create, manage, list and delete IAM groups.
-      IMA group is a collection of users, roles or other groups.
+      IAM group is a collection of users, roles or other groups.
   - id: CCC.IAM.F04
     title: IAM Roles / Service Principals
     description: |
       Ability to create, manage, list and delete IAM roles.
-      IMA role is an identity for applications or services to
+      IAM role is an identity for applications or services to
       access resources.
   - id: CCC.IAM.F05
     title: Managed Identities

@@ -1,0 +1,10 @@
+shared-threats:
+  - reference-id: CCC
+    identifiers:
+      - CCC.TH01 # Access Control is Misconfigured
+      - CCC.TH07 # Logs are Tampered With or Deleted
+      - CCC.TH09 # Logs or Monitoring Data are Read by Unauthorized Users
+      - CCC.TH10 # Alerts are Intercepted
+      - CCC.TH11 # Event Notifications are Incorrectly Triggered
+      - CCC.TH13 # Resource Tags are Manipulated
+      - CCC.TH15 # Automated Enumeration and Reconnaissance by Non-human Entities
