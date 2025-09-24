@@ -284,6 +284,11 @@ control-families:
             entries:
               - reference-id: SC-13
               - reference-id: SC-28
+          - reference-id: FINOS-AIGF
+            entries:
+              - reference-id: AIR-PREV-014
+                strength: 0 # Not yet specified
+                remarks: Encryption of AI Data at Rest
       - id: CCC.Core.C11
         title: Enforce Key Management Policies
         objective: |
@@ -349,6 +354,11 @@ control-families:
             entries:
               - reference-id: SC-12
               - reference-id: SC-17
+          - reference-id: FINOS-AIGF
+            entries:
+              - reference-id: AIR-PREV-014
+                strength: 0 # Not yet specified
+                remarks: Encryption of AI Data at Rest
   - title: Identity and Access Management
     description: |
       The Identity and Access Management control family ensures
@@ -514,6 +524,14 @@ control-families:
           - reference-id: NIST_800_53
             entries:
               - reference-id: AC-3
+          - reference-id: FINOS-AIGF
+            entries:
+              - reference-id: AIR-PREV-012
+                strength: 0 # Not yet specified
+                remarks: Role-Based Access Control for AI Data
+              - reference-id: AIR-DET-016
+                strength: 0 # Not yet specified
+                remarks: Preserving Source Data Access Controls in AI Systems
   - title: Logging & Monitoring
     description: |
       The Logging & Monitoring control family ensures that access,
@@ -574,6 +592,11 @@ control-families:
               - reference-id: AU-2
               - reference-id: AU-3
               - reference-id: AU-12
+          - reference-id: FINOS-AIGF
+            entries:
+              - reference-id: AIR-DET-004
+                strength: 0 # Not yet specified
+                remarks: AI System Observability
       - id: CCC.Core.C07
         title: Alert on Unusual Enumeration Activity
         objective: |
@@ -616,6 +639,11 @@ control-families:
           - reference-id: NIST_800_53
             entries:
               - reference-id: AU-6
+          - reference-id: FINOS-AIGF
+            entries:
+              - reference-id: AIR-DET-004
+                strength: 0 # Not yet specified
+                remarks: AI System Observability
   - title: Network Security
     description: |
       The Network Security control family ensures that access

@@ -127,6 +127,14 @@ threats:
           - reference-id: T1565
             strength: 0 # Not yet specified
             remarks: Data Manipulation
+      - reference-id: FINOS-AIGF
+        entries:
+          - reference-id: AIR-RC-001
+            strength: 0 # Not yet specified
+            remarks: Information Leaked To Hosted Model
+          - reference-id: AIR-RC-023
+            strength: 0 # Not yet specified
+            remarks: Intellectual Property (IP) and Copyright
   - id: CCC.Core.TH05
     title: Data is Corrupted During Replication
     description: |
@@ -395,6 +403,11 @@ threats:
           - reference-id: T1498
             strength: 0 # Not yet specified
             remarks: Network Denial of Service
+      - reference-id: FINOS-AIGF
+        entries:
+          - reference-id: AIR-OP-007
+            strength: 0 # Not yet specified
+            remarks: Availability of Foundational Model
   - id: CCC.Core.TH13
     title: Resource Tags are Manipulated
     description: |
