@@ -534,3 +534,27 @@ threats:
           - reference-id: T1133
             strength: 0 # Not yet specified
             remarks: External Remote Services
+  - id: CCC.Core.TH18
+    title: Supply Chain Risk
+    description: |
+      A compromise of a trusted digital artifact from any entity in the cloud ecosystem
+      leads to the unwitting integration of that vulnerability or threat into an operational
+      environment, which may result in the compromise of the infrastructure, service,
+      or customer data.
+    capabilities:
+      - reference-id: CCC
+        entries:
+          - reference-id: CCC.Core.F13
+            strength: 0 # Not yet specified
+            remarks: Infrastructure as Code
+    external-mappings:
+      - reference-id: MITRE-ATT&CK
+        entries:
+          - reference-id: T1195
+            strength: 0 # Not yet specified
+            remarks: Supply Chain Compromise
+      - reference-id: FINOS-AIGF
+        entries:
+          - reference-id: AIR-SEC-008
+            strength: 0 # Not yet specified
+            remarks: Tampering With the Foundational Model
